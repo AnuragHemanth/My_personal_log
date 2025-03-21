@@ -1,9 +1,6 @@
-public class anurag{
+public class anurag {
     public static void main(String[] args) {
-       int sum= add(20,30);
-       System.out.println(sum);
+        System.out.println("hello");
     }
-    public static int add(int a,int b){
-        return a+b;
-    }
+
 }

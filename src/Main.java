@@ -1,26 +1,15 @@
-import java.util.*;
-public class Main{
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
     public static void main(String[] args) {
-        int n ;
-        int esum =0;
-        int osum =0;
-        System.out.println("enter the number");
-        Scanner sc =new Scanner(System.in);
-        n =sc.nextInt();
-        while(n>0) {
-            System.out.println("enter the input number one by one");
-            int num =sc.nextInt();
-            if(num%2==0){
-                esum+=num;
-        }
-            else{
-                osum+=num;
+        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+        // to see how IntelliJ IDEA suggests fixing it.
+        System.out.printf("Hello and welcome!");
 
-            }
-            n--;
+        for (int i = 1; i <= 5; i++) {
+            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
+            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
+            System.out.println("i = " + i);
         }
-        System.out.println("even sum"+ esum);
-        System.out.println("odd sum"+ osum);
-
     }
 }
